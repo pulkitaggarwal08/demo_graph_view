@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">DemoGraphView</string>
+    <string name="bar_chart">Single Bar or Grouped Bar Chart</string>
+    <string name="grouped_bar_chart">Grouped Bar Chart</string>
+    <string name="horizontal_bar_chart">Horizontal Bar Chart</string>
+    <string name="line_chart">Line Chart</string>
+    <string name="combined_line_and_bar_chart">Combined Line and Bar Chart</string>
+    <string name="line_chart_with_cubic_lines">Line Chart with Cubic Lines</string>
+    <string name="grouped_line_chart">Grouped Line Chart</string>
+    <string name="pie_chart">Pie Chart</string>
+    <string name="scatter_chart">Scatter Chart</string>
+    <string name="candlestick_chart">Candlestick Chart</string>
+    <string name="radar_chart">Radar Chart</string>
+    <string name="color_filled_line_chart">Color Filled Line Chart</string>
+    <string name="real_time_accelerometer_data_plot">Real Time Accelerometer Data Plot</string>
+</resources>

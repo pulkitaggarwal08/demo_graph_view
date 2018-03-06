@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
+
+        <Button
+            android:id="@+id/btn_bar_chart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/bar_chart"
+            android:textAllCaps="false"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btn_color_filled_line_chart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_bar_chart"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/color_filled_line_chart"
+            android:textAllCaps="false"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btn_horizontal_bar_chart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_color_filled_line_chart"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/horizontal_bar_chart"
+            android:textAllCaps="false"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_line_chart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_color_filled_line_chart"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/line_chart"
+            android:textAllCaps="false"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btn_line_chart_with_cubic_lines"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_line_chart"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/line_chart_with_cubic_lines"
+            android:textAllCaps="false"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_grouped_line_chart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_line_chart_with_cubic_lines"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/grouped_line_chart"
+            android:textAllCaps="false"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_combined_line_and_bar_chart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_grouped_line_chart"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/combined_line_and_bar_chart"
+            android:textAllCaps="false"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_pi_chart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_line_chart"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/pie_chart"
+            android:textAllCaps="false"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btn_real_time_accelerometer_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_pi_chart"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/real_time_accelerometer_data_plot"
+            android:textAllCaps="false"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btn_scatter_chart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_pi_chart"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/scatter_chart"
+            android:textAllCaps="false"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_candlestick_chart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_scatter_chart"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/candlestick_chart"
+            android:textAllCaps="false"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_radar_chart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_candlestick_chart"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/radar_chart"
+            android:textAllCaps="false"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+</ScrollView>
